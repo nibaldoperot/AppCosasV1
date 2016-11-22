@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-navbar></ion-navbar>
+</ion-header>
+<ion-content class="has-header">
+	<ion-slides pager>
+	  <ion-slide *ngFor="let a of fakeArray; let index = index">
+	    <img src="http://cosas.com/wp-content/uploads/2016/casas/11/{{index}}.jpg" />
+	  </ion-slide>
+	</ion-slides>
+</ion-content>

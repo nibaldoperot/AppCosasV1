@@ -1,0 +1,19 @@
+<ion-content padding>
+<ion-list>
+
+  <ion-item>
+    <ion-label stacked>Usuario</ion-label>
+    <ion-input type="text" [value]="usuario" [(ngModel)]="usuario"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label stacked>Contraseña</ion-label>
+    <ion-input type="password" [value]="pass" [(ngModel)]="pass"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button block  (click)="getName()">Sign In</button>
+</div>
+</ion-content>
